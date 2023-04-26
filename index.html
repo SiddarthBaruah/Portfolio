@@ -1,0 +1,449 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body data-page="0">
+    <nav id="nav">
+      <div class="nav-text"></div>
+      <div class="nav-text" onclick="about()">About</div>
+      <div class="nav-text" onclick="internship()">Internships</div>
+      <div class="nav-text" onclick="skills()">Skills</div>
+      <div class="nav-text" onclick="projects()">Projects</div>
+      <div class="nav-text" onclick="courses()">Courses</div>
+      <div class="nav-text"></div>
+    </nav>
+
+    <div id="Data">
+      <div class="navbar">
+        <img src="Sources/ProfilePic.jpg" alt="ehlo" />
+
+        <div>
+          <h
+            ><u><b>Profiledata</b></u></h
+          >
+          <div class="Profiledetail">
+            Name: Siddarth Baruah <br />
+            RollNumber: EE21B128 <br />
+            Hobby: To sleep
+          </div>
+
+          <div>
+            <h2 class="simpletext">
+              <u><b>Contact details</b></u>
+            </h2>
+            <div class="Contact_details">
+              <div class="Contact_details_links">
+                <a href="https://github.com/SiddarthBaruah" target="_blank">
+                  <img src="Sources/Icons/github.png" class="Icons" />
+                  <div class="icontext">&ensp; Github</div>
+                </a>
+              </div>
+
+              <div class="Contact_details_links">
+                <a
+                  href="http://https://www.instagram.com/siddarth_baruah/"
+                  target="_blank"
+                  ><img
+                    src="Sources/Icons/3721672-instagram_108066.png"
+                    class="Icons"
+                  />
+                  <div class="icontext">Instagram</div></a
+                >
+              </div>
+
+              <div class="Contact_details_links">
+                <a
+                  href="https://www.linkedin.com/in/siddarth-baruah-abaa30213/"
+                  target="_blank"
+                  ><img
+                    src="Sources/Icons/linkedin_icon-icons.com_65929.png"
+                    class="Icons"
+                  />
+                  <div class="icontext">Linkedin</div></a
+                >
+              </div>
+              <div class="Contact_details_links">
+                <a href="mailto: ee21b128@smail.iitm.ac.in" target="_blank"
+                  ><img src="Sources/Icons/gmail.png" class="Icons" />
+                  <div class="icontext">&ensp;Gmail</div></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <img
+          src="Sources/cute-white-cat-cartoon-vector-illustration_42750-808-removebg-preview.png"
+          class="cutecat"
+        /> -->
+      </div>
+
+      <div class="datain">
+        <div class="changebutton">
+          <button class="buttonshapeleft" type="button" onclick="backward()">
+            <i class="fa fa-arrow-left" style="color: white"></i>
+          </button>
+        </div>
+
+        <div class="card-section">
+          <div class="allcards">
+            <div class="skills" style="opacity: 0" data-skill="0">
+              <div class="card" style="opacity: 1">
+                <div
+                  class="card-front"
+                  style="
+                    background-image: url(Sources/Card-images/coding_languages.webp);
+                  "
+                ></div>
+                <div class="card-back">
+                  <h3><u>Coding skills</u></h3>
+                  <ol>
+                    <li>C++</li>
+                    <li>C</li>
+                    <li>Python</li>
+                  </ol>
+                  <p>
+                    These are the coding_languages that goes smoothly with me.
+                  </p>
+                </div>
+              </div>
+              <div class="card" style="opacity: 0">
+                <div
+                  class="card-front"
+                  style="background-image: url(Sources/Card-images/webdev.jpg)"
+                ></div>
+                <div class="card-back">
+                  <h3><u>Webdev</u></h3>
+                  <ol>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>ReactJs</li>
+                    <li>NodeJs/express</li>
+                  </ol>
+                  <p>
+                    Other than this I am also familier with other web dev
+                    framworks like <b>Three js</b>, backend tools like
+                    <b>Django</b> in python and <b>MongoDB</b>.
+                  </p>
+                </div>
+              </div>
+
+              <div class="card" style="opacity: 0">
+                <div
+                  class="card-front"
+                  style="
+                    background-image: url(Sources/Card-images/Machine_leaning.png);
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-end;
+                  "
+                >
+                  <div>
+                    <u><h3>Machine learning</h3></u>
+                  </div>
+                </div>
+                <div class="card-back">
+                  <h3><u>Machine learning</u></h3>
+                  <p>
+                    Know about
+                    <b>pandas, numpy, Data plotting and Visualization</b>
+                    techniques in python. Now learning about different types of
+                    models and techniques to analize given data. <br />
+                    Also I can implement:
+                  </p>
+                  <ol>
+                    <li>Linear and Logistic Regression models</li>
+                    <li>CNN Models like VGG</li>
+                  </ol>
+                </div>
+              </div>
+              <div class="card" style="opacity: 0">
+                <div
+                  class="card-front"
+                  style="
+                    background-image: url(Sources/Card-images/softtools.jpg);
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-end;
+                  "
+                >
+                  <div><u>Software Tools</u></div>
+                </div>
+                <div class="card-back">
+                  <h3><u>Software tools</u></h3>
+                  <ol>
+                    <li>Ansys HFSS</li>
+                    <li>Keysight ADS</li>
+                    <li>Proteus</li>
+                    <li>Word</li>
+                    <li>Excel</li>
+                    <li>Powerpoint</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+
+            <div class="internship" style="opacity: 0">
+              <div class="card" style="opacity: 1">
+                <div
+                  class="card-front"
+                  style="
+                    background-image: url(Sources/Card-images/Defence_Research_and_Development_Organisation_Logo.png);
+                    background-size: contain;
+                  "
+                ></div>
+                <div class="card-back">
+                  <h3><u>MackLab-DRDO</u></h3>
+                  <p>
+                    I was engaged in designing printed circuit boards (PCBs)
+                    under professor Dr.Christopher to test MMIC analog radio
+                    frequency (RF) circuits. This work involved utilizing my
+                    expertise in PCB design to ensure accurate and efficient
+                    testing of these analog circuits.
+                  </p>
+                </div>
+              </div>
+              <div class="card" style="opacity: 0">
+                <div
+                  class="card-front"
+                  style="
+                    background-image: url(Sources/Card-images/externclub.jpeg);
+                    background-size: contain;
+                  "
+                ></div>
+                <div class="card-back">
+                  <h3><u>Extern Club</u></h3>
+                  <ol>
+                    <li>
+                      Learned About <b>Atmega</b> series of microprocessor
+                    </li>
+                    <li>
+                      Programming the microprocessor using <b>AtmelStudio</b>
+                    </li>
+                  </ol>
+                </div>
+              </div>
+              <div class="card" style="opacity: 0">
+                <div
+                  class="card-front"
+                  style="
+                    background-image: url(Sources/Card-images/acmegrade.jpg);
+                    background-size: contain;
+                  "
+                ></div>
+                <div class="card-back">
+                  <h3><u>Acmegrade(still going on)</u></h3>
+
+                  <p>
+                    Learned about
+                    <b>pandas, numpy, Data plotting and Visualization</b>
+                    techniques in python. Now learning about different types of
+                    models and techniques to analize given data.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="about" style="opacity: 1">
+              <div class="card">
+                <div
+                  class="card-front"
+                  style="
+                    background-image: url(Sources/Card-images/About-Me-Transparent-PNG.png);
+                  "
+                ></div>
+                <div class="card-back">
+                  <h3><u>About</u></h3>
+                  <p>
+                    I was recently engaged a lot in core fields with various
+                    intern and work with professors. Now I have shifted my prime
+                    focus to learn to code. My favourite thing to do is eat ,
+                    play&code and watch anime(my fav is AOT).
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="projects" style="opacity: 0">
+              <div class="card" style="opacity: 1">
+                <div
+                  class="card-front"
+                  style="
+                    background-image: url(Sources/Card-images/externclub.jpeg);
+                    background-size: contain;
+                  "
+                ></div>
+                <div class="card-back">
+                  <h3><u>Project Detail</u></h3>
+                  In this, I had two projects i.e, <b>HomeAutomation</b> and
+                  <b>Bluetooth Controlled Robot</b> and was made using
+                  <b>Proteus</b>, coded in <b>C</b> and used <b>Atmega16</b>
+                </div>
+              </div>
+
+              <div class="card" style="opacity: 0">
+                <div
+                  class="card-front"
+                  style="
+                    background-image: url(Sources/Card-images/hand-mimick2.jpg);
+                    background-size: contain;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-end;
+                    align-items: center;
+                  "
+                >
+                  <h3>Hand Mimicking Robot</h3>
+                </div>
+                <div class="card-back">
+                  <h3><u>Project Detail</u></h3>
+                  In this, I created a HandMimicking Robot using
+                  <b>Arduino</b> which senses human finger using
+                  <b>potentiometer,</b> and pass it to the <b>Servo Motors</b>.
+                </div>
+              </div>
+              <div class="card" style="opacity: 0">
+                <div
+                  class="card-front"
+                  style="
+                    background-size: contain;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                  "
+                >
+                  <h3>LTSpice Simulator</h3>
+                </div>
+                <div class="card-back">
+                  <h3><u>Project Detail</u></h3>
+                  This LTspice Simulator was created as one of the assignment in
+                  the course EE2703. Firstly we made a <b>Matrix Solver</b>,
+                  which used gaussian method to solve. Then we applied KCL all
+                  around the nodes of a given circuit and made a equation out of
+                  it. Using the matrix solver, the circuit was solved.
+                </div>
+              </div>
+            </div>
+            <div class="courses" style="opacity: 0">
+              <div class="card" style="opacity: 1">
+                <div
+                  class="card-front"
+                  style="
+                    background-size: contain;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                  "
+                >
+                  <h3>Trimester 1&2</h3>
+                </div>
+                <div class="card-back">
+                  <h3><u>Trimester 1&2</u></h3>
+                  <ol>
+                    <li>MA1101- Functions of Several Variable</li>
+                    <li>PH1010- Physics 1</li>
+                    <li>CY1001- Chemistry 1:Structure Bond & Reactivity</li>
+                    <li>EE1102- Introduction to Programming (in C)</li>
+
+                    <li>MA1102- Series&Matrices</li>
+                    <li>PH1020- Physics II</li>
+                    <li>PH1030- Physics Lab I</li>
+                  </ol>
+                </div>
+              </div>
+              <div class="card" style="opacity: 0">
+                <div
+                  class="card-front"
+                  style="
+                    background-size: contain;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                  "
+                >
+                  <h3>Trimester 3</h3>
+                </div>
+                <div class="card-back">
+                  <h3><u>Trimester 3</u></h3>
+                  <ol>
+                    <li>EE1101- Signals and Systems</li>
+                    <li>EE2001- Digital Systems and Labs</li>
+                    <li>HS2030- Modern Govenment& Comparative Constitution</li>
+                  </ol>
+                </div>
+              </div>
+              <div class="card" style="opacity: 0">
+                <div
+                  class="card-front"
+                  style="
+                    background-size: contain;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                  "
+                >
+                  <h3>Semester 3</h3>
+                </div>
+                <div class="card-back">
+                  <h3><u>Trisem 3</u></h3>
+                  <ol>
+                    <li>EE2015- Electric Circuits & Networks</li>
+                    <li>EE2016- Microprocessor Theory & Lab</li>
+                    <li>EE2025- Engineering ELectromagnetics</li>
+                    <li>HS3002B- Principle of Economics</li>
+                    <li>MA2031- Linear Algebra for Engineers</li>
+                  </ol>
+                </div>
+              </div>
+              <div class="card" style="opacity: 0">
+                <div
+                  class="card-front"
+                  style="
+                    background-size: contain;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                  "
+                >
+                  <h3>Semester 4</h3>
+                </div>
+                <div class="card-back">
+                  <h3><u>Trisem 3</u></h3>
+                  <ol>
+                    <li>EE2019- Analog Systems and Lab</li>
+                    <li>EE3001- Solid State Devices</li>
+                    <li>EE2703- Applied Programming</li>
+                    <li>EE2004- Digital Signal Processing</li>
+                    <li>EE2005- Electrical Machines and Lab</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cardnumber">
+            <span id="cnum">1</span>/
+            <span id="ctotal">1</span>
+          </div>
+        </div>
+        <div class="changebutton">
+          <button class="buttonshaperight" type="button" onclick="forward()">
+            <i class="fa fa-arrow-right" style="color: white"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
